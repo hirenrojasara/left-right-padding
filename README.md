@@ -12,7 +12,7 @@ npm install left-right-padding --save
 #Integration
 ```javascript
 
-var padding = require("./left-right-padding");
+var padding = require("left-right-padding");
 ```
 
 

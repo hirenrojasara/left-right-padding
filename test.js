@@ -1,18 +1,4 @@
-# left-right-padding
-
-Left and Right Padding with given string with given count or uptill n length
-
-
-#Installation
-
-```javascript
-npm install left-right-padding --save
-```
-
-#Integration
-```javascript
-
-var padding = require("./left-right-padding");
+var padding = require("./index");
 
 console.log ( padding.lpad("test", "*"));
 //Output:	*test
@@ -62,6 +48,3 @@ console.log ( padding.rpad());
 
 console.log ( padding.rpad("test"));
 //Output:	test
-
-
-```

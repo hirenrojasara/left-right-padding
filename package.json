@@ -4,7 +4,7 @@
   "description": "Left and Right Padding with given string with given count or uptill n length",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test.js"
   },
   "keywords": [
     "left",

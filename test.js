@@ -1,4 +1,13 @@
 var padding = require("./index");
+var assert = require('assert');
+
+describe('Left Padding', function () {
+    it('shoud run *test', function() {
+        var val = padding.lpad("test", "*");
+        assert.equal(val, "*test");
+    });
+
+});
 
 console.log ( padding.lpad("test", "*"));
 //Output:	*test

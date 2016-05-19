@@ -12,6 +12,11 @@ describe('Left Padding', function () {
         assert.equal(val, "**********test");
     });
 
+    it('shoud be **********test', function() {
+        var val = padding.lpad("test", "*", 10)
+        assert.equal(val, "**********test");
+    });
+
 });
 
 console.log ( );
